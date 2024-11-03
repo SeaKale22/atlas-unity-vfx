@@ -21,10 +21,16 @@ public class PauseMenu : MonoBehaviour
         {
             if (PauseCanvas.activeSelf)
             {
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                Debug.Log("Curser visable is False.");
                 Resume();
             }
             else
             {
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+                Debug.Log("Curser visable is True.");
                 Pause();
             }
         }   
@@ -33,16 +39,19 @@ public class PauseMenu : MonoBehaviour
     void Pause()
     {
         Time.timeScale = 0;
+        Debug.Log("timeScale set to 0.");
         CameraController.moveCam = false;
         PauseCanvas.SetActive(true);
-        
+        Debug.Log("PauseCanvas setActive is True.");
     }
 
     public void Resume()
     {
         Time.timeScale = 1;
+        Debug.Log("timeScale set to 1.");
         CameraController.moveCam = true;
         PauseCanvas.SetActive(false);
+        Debug.Log("PauseCanvas setActive is False.");
     }
 
     public void Restart()

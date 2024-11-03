@@ -22,6 +22,9 @@ public class WinTrigger : MonoBehaviour
             timerText.color = Color.green;
             WinCanvas.SetActive(true);
             Time.timeScale = 0;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            Debug.Log("Curser visable is True.");
         }
     }
 }

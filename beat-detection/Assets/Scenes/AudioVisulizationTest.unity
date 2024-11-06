@@ -142,6 +142,7 @@ MonoBehaviour:
   band: 4
   startScale: 1
   scaleMultiplier: 10
+  useBuffer: 1
 --- !u!4 &54752830 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2633146891530617280, guid: 4ea2dc020f3b5784aa77f433f74378e0, type: 3}
@@ -167,6 +168,7 @@ MonoBehaviour:
   band: 1
   startScale: 1
   scaleMultiplier: 10
+  useBuffer: 1
 --- !u!4 &200157922 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2633146891530617280, guid: 4ea2dc020f3b5784aa77f433f74378e0, type: 3}
@@ -192,6 +194,7 @@ MonoBehaviour:
   band: 2
   startScale: 1
   scaleMultiplier: 10
+  useBuffer: 1
 --- !u!4 &217038992 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2633146891530617280, guid: 4ea2dc020f3b5784aa77f433f74378e0, type: 3}
@@ -217,6 +220,7 @@ MonoBehaviour:
   band: 0
   startScale: 1
   scaleMultiplier: 10
+  useBuffer: 1
 --- !u!4 &327446339 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2633146891530617280, guid: 4ea2dc020f3b5784aa77f433f74378e0, type: 3}
@@ -388,6 +392,7 @@ MonoBehaviour:
   band: 3
   startScale: 1
   scaleMultiplier: 10
+  useBuffer: 1
 --- !u!4 &727673133 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2633146891530617280, guid: 4ea2dc020f3b5784aa77f433f74378e0, type: 3}
@@ -556,7 +561,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5572724664287928763, guid: 0002c0c4c48d1b94097236794f8639bd, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 32997d49308126e4c839a7f44a1c70c0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e835bc43ed0ae454ea39b9f39c33753e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -823,6 +828,7 @@ MonoBehaviour:
   band: 6
   startScale: 1
   scaleMultiplier: 10
+  useBuffer: 1
 --- !u!4 &1124893545 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2633146891530617280, guid: 4ea2dc020f3b5784aa77f433f74378e0, type: 3}
@@ -1088,6 +1094,7 @@ MonoBehaviour:
   band: 7
   startScale: 1
   scaleMultiplier: 10
+  useBuffer: 1
 --- !u!4 &1508784964 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2633146891530617280, guid: 4ea2dc020f3b5784aa77f433f74378e0, type: 3}
@@ -1113,6 +1120,7 @@ MonoBehaviour:
   band: 5
   startScale: 1
   scaleMultiplier: 10
+  useBuffer: 1
 --- !u!4 &1550548390 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2633146891530617280, guid: 4ea2dc020f3b5784aa77f433f74378e0, type: 3}

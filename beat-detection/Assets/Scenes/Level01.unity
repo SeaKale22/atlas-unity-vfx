@@ -9376,7 +9376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b23f6c13296d9f469841d365658456c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bufferDecreaseValue: 1.05
+  bufferDecreaseValue: 1.12
 --- !u!1 &2145826600 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5161725415093675943, guid: ae24cbf9e5589e1498415507659719f4, type: 3}
